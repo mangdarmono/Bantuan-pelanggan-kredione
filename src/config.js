@@ -1,5 +1,5 @@
 export const WHATSAPP_CONFIG = {
-  number: "6208137750397",
+  number: "628137750397",
   text: "Halo KrediOne, saya membutuhkan bantuan.",
   getLink: () => `https://wa.me/${WHATSAPP_CONFIG.number}?text=${encodeURIComponent(WHATSAPP_CONFIG.text)}`,
   getDisplay: () => `+${WHATSAPP_CONFIG.number}`
